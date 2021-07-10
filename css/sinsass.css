@@ -1,0 +1,19 @@
+
+
+.viandasIndividuales {
+    grid-area: cajaIndividuales;
+
+
+}
+
+.ensaladas {
+    grid-area: cajaEnsaladas;
+
+
+}
+
+.viandasejecutivas {
+    grid-area: cajaEjecutivas;
+
+
+}

@@ -1,0 +1,19 @@
+@import "_variables.scss";
+
+footer {
+    background-color: $color_marcario;
+    height: 10%;
+    padding: 1%;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 90% 5% 5%;
+
+    p {
+        font-family: $tipografia_marcaria;
+    
+    }
+
+    img {
+        height: 30%;    
+    }
+}
