@@ -11,7 +11,7 @@ header {
     grid-template-rows: 100%;
     grid-template-columns: 40% 60%; }
     header nav img {
-      height: 90%;
+      height: 100%;
       align-items: center; }
     header nav ul {
       font-family: "Nunito", sans-serif;
@@ -33,30 +33,10 @@ main {
   main .container {
     padding: 1%;
     align-items: center; }
-  main .contenidoViandas {
-    width: 90%;
-    height: 90%;
-    padding: 2%;
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 50% 20% 30%;
-    grid-template-areas: "cajaIndividuales cajaEnsaladas cajaEjecutivas"  "cajaIndividuales cajaEnsaladas cajaEjecutivas" "cajaIndividuales cajaEnsaladas cajaEjecutivas";
-    column-gap: 50px;
-    justify-items: center;
-    align-items: center; }
-    main .contenidoViandas .viandasIndividuales, main .contenidoViandas .ensaladas, main .contenidoViandas .viandasEjecutivas {
-      width: 90%;
-      background-color: #b8cdbe;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      justify-content: center;
-      align-content: center; }
 
 footer {
   background-color: #b9cdbe;
-  height: 10%;
+  height: 5%;
   padding: 1%;
   display: grid;
   grid-template-rows: 100%;
@@ -68,4 +48,39 @@ footer {
 
 body {
   margin: 0px;
-  height: 2000px; }
+  height: 100%; }
+
+.contenidoViandas {
+  width: 90%;
+  height: 90%;
+  padding: 2%;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 50% 20% 30%;
+  grid-template-areas: "cajaIndividuales cajaEnsaladas cajaEjecutivas"  "cajaIndividuales cajaEnsaladas cajaEjecutivas" "cajaIndividuales cajaEnsaladas cajaEjecutivas";
+  column-gap: 50px;
+  justify-items: center;
+  align-items: center; }
+  .contenidoViandas .viandasIndividuales, .contenidoViandas .ensaladas, .contenidoViandas .viandasEjecutivas {
+    width: 90%;
+    background-color: #b8cdbe;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center; }
+
+.contenidoNosotros {
+  width: 80%;
+  height: 80%;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .contenidoNosotros .imgNosotros, .contenidoNosotros .parrafoNosotros {
+    padding: 2%; }
+  .contenidoNosotros .parrafoNosotros {
+    color: black;
+    font-size: 100%;
+    font-family: "Nunito", sans-serif; }
