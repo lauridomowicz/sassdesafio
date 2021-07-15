@@ -22541,28 +22541,20 @@ textarea.form-control-lg {
     display: none !important; } }
 
 footer {
-  background-color: #b9cdbe;
-  height: 2%;
-  padding: 1%;
-  display: grid;
-  grid-template-rows: 100%;
-  grid-template-columns: 60% 20% 20%;
-  grid-template-areas: "contacto facebook instagram"; }
+  height: 90px; }
+  footer .footerContent {
+    padding: 1%;
+    background-color: #b9cdbe; }
   footer p {
-    font-family: "Nunito", sans-serif;
-    grid-column: contacto; }
-  footer .imgFacebook {
-    grid-area: facebook; }
-  footer .imgInstagram {
-    grid-area: instagram; }
+    font-family: "Nunito", sans-serif; }
   footer img {
-    height: 15%; }
+    height: 50%; }
 
 body {
   margin: 0px;
   height: 100%; }
 
-main {
+.mainContacto {
   background-image: url("../img/backround_contacto.jpg"); }
 
 .contenidoContacto {
