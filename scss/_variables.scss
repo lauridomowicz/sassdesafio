@@ -1,2 +1,18 @@
+//generico
+
 $color_marcario: rgb(185, 205, 190);
 $tipografia_marcaria: 'Nunito', sans-serif;
+$border-radius: 50px;
+$border-color: solid;
+
+//color marcario
+
+$principal: rgb(185, 205, 190);
+
+//variables bootstrap
+
+$primary: $principal;
+
+$nav-pills-link-active-color: white;
+
+@import "../boostrap/bootstrap/scss/bootstrap"
