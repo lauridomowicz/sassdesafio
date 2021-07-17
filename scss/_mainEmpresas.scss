@@ -1,0 +1,22 @@
+.contenidoEmpresas {
+    color: white;
+    
+
+    .card {
+        background-color: $color_marcario;
+        border-radius: 80px;
+    }
+
+    h5 {
+        font-size: 1fr;
+        font-weight: 700;
+        padding: 1%;
+        font-family: $tipografia_marcaria;
+    }
+
+    p{
+        padding: 1%;
+        font-family: $tipografia_marcaria;
+    }
+
+}
