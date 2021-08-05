@@ -22541,14 +22541,19 @@ textarea.form-control-lg {
     display: none !important; } }
 
 footer {
-  height: 90px; }
-  footer .footerContent {
-    padding: 1%;
-    background-color: #b9cdbe; }
-  footer p {
-    font-family: "Nunito", sans-serif; }
+  height: 20%;
+  background-color: #b9cdbe;
+  display: grid;
+  grid-template-columns: 50 50;
+  grid-template-rows: 100;
+  grid-template-areas: "vacio logos"; }
+  footer .logosRedes {
+    padding: 2%;
+    grid-area: "logos"; }
   footer img {
-    height: 50%; }
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 70%; }
 
 body {
   margin: 0px;
@@ -22558,10 +22563,20 @@ body {
   background-image: url("../img/backround_contacto.png"); }
 
 .contenidoContacto {
-  height: 50%;
-  width: 50%;
+  background-color: white;
   padding: 5%;
-  background-color: white; }
+  display: grid;
+  grid-template-columns: 50 50;
+  grid-template-rows: 100;
+  grid-template-areas: "formulario cardContacto"; }
+  .contenidoContacto .formularioContacto {
+    grid-area: "formulario"; }
+  .contenidoContacto .datosDeContacto {
+    grid-area: "cardContacto"; }
+    .contenidoContacto .datosDeContacto h5, .contenidoContacto .datosDeContacto .h5 {
+      font-size: 150%; }
+    .contenidoContacto .datosDeContacto .card {
+      background-color: white; }
 
 .card {
   padding: 5%;
@@ -22595,3 +22610,6 @@ body {
   .contenidoEmpresas p {
     padding: 1%;
     font-family: "Nunito", sans-serif; }
+
+html {
+  height: 100%; }

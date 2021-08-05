@@ -17,4 +17,16 @@ $nav-pills-link-active-color: white;
 
 $box-shadow: 0 .125rem .25rem black;
 
-@import "../boostrap/bootstrap/scss/bootstrap"
+@import "../boostrap/bootstrap/scss/bootstrap";
+
+
+//queeries
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
