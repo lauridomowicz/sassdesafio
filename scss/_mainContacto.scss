@@ -6,30 +6,35 @@
 
 .contenidoContacto {
     background-color: white;
-    padding: 5%;
-    display: grid;
-    grid-template-columns: 50 50;
-    grid-template-rows: 100;
-    grid-template-areas: "formulario cardContacto";
+    padding: 2%;
+    
     
 
-    .formularioContacto {
-        grid-area: "formulario";
-    }
+
 
 .datosDeContacto {
 
-    grid-area: "cardContacto";
+    align-items: center;
+
     
 
     h5 {
         font-size: 150%;
     }
 
-
     .card {
+        border-radius: 5px;
         background-color: white;
 
+        .card-img-top 
+        {
+            height: 30%;
+        }
+
+
     }
+
+
+
 }
 }

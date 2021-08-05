@@ -22553,7 +22553,7 @@ footer {
   footer img {
     padding-top: 1%;
     padding-bottom: 1%;
-    height: 70%; }
+    height: 50%; }
 
 body {
   margin: 0px;
@@ -22564,38 +22564,29 @@ body {
 
 .contenidoContacto {
   background-color: white;
-  padding: 5%;
-  display: grid;
-  grid-template-columns: 50 50;
-  grid-template-rows: 100;
-  grid-template-areas: "formulario cardContacto"; }
-  .contenidoContacto .formularioContacto {
-    grid-area: "formulario"; }
+  padding: 2%; }
   .contenidoContacto .datosDeContacto {
-    grid-area: "cardContacto"; }
+    align-items: center; }
     .contenidoContacto .datosDeContacto h5, .contenidoContacto .datosDeContacto .h5 {
       font-size: 150%; }
     .contenidoContacto .datosDeContacto .card {
+      border-radius: 5px;
       background-color: white; }
+      .contenidoContacto .datosDeContacto .card .card-img-top {
+        height: 30%; }
 
 .card {
   padding: 5%;
   font-family: "Nunito", sans-serif;
-  background-color: #b9cdbe; }
+  background-color: white; }
 
-.contenidoNosotros {
-  width: 80%;
-  height: 80%;
-  padding: 5%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-  .contenidoNosotros .imgNosotros, .contenidoNosotros .parrafoNosotros {
-    padding: 2%; }
-  .contenidoNosotros .parrafoNosotros {
-    color: black;
-    font-size: 100%;
-    font-family: "Nunito", sans-serif; }
+.contenidoNosotros .imgNosotros, .contenidoNosotros .parrafoNosotros {
+  padding: 2%; }
+
+.contenidoNosotros .parrafoNosotros {
+  color: black;
+  font-size: 100%;
+  font-family: "Nunito", sans-serif; }
 
 .contenidoEmpresas {
   color: white; }
