@@ -1,40 +1,39 @@
 
 .mainContacto {
-    background-image: url("../img/backround_contacto.png")
-
-}
-
-.contenidoContacto {
-    background-color: white;
-    padding: 2%;
-    
     
 
-
-
-.datosDeContacto {
-
-    align-items: center;
-
-    
-
-    h5 {
-        font-size: 150%;
-    }
-
-    .card {
-        border-radius: 5px;
+    .contenidoContacto {
         background-color: white;
-
-        .card-img-top 
-        {
-            height: 30%;
+        padding: 2%;
+        
+        
+    
+    
+    
+    .datosDeContacto {
+    
+        align-items: center;
+    
+        
+    
+        h5 {
+            font-size: 150%;
         }
-
-
+    
+        .card {
+            border-radius: 5px;
+            background-color: white;
+    
+            .card-img-top 
+            {
+                height: 30%;
+            }
+    
+    
+        }
+    
+    
+    
     }
+    }}
 
-
-
-}
-}

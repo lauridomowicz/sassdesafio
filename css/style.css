@@ -15030,7 +15030,8 @@ header {
       text-decoration: none; }
 
 main {
-  padding: 5%; }
+  padding: 5%;
+  background-image: url("../img/trama_background.png"); }
   main div {
     align-items: center;
     padding: 5px; }
@@ -22559,20 +22560,17 @@ body {
   margin: 0px;
   height: 100%; }
 
-.mainContacto {
-  background-image: url("../img/backround_contacto.png"); }
-
-.contenidoContacto {
+.mainContacto .contenidoContacto {
   background-color: white;
   padding: 2%; }
-  .contenidoContacto .datosDeContacto {
+  .mainContacto .contenidoContacto .datosDeContacto {
     align-items: center; }
-    .contenidoContacto .datosDeContacto h5, .contenidoContacto .datosDeContacto .h5 {
+    .mainContacto .contenidoContacto .datosDeContacto h5, .mainContacto .contenidoContacto .datosDeContacto .h5 {
       font-size: 150%; }
-    .contenidoContacto .datosDeContacto .card {
+    .mainContacto .contenidoContacto .datosDeContacto .card {
       border-radius: 5px;
       background-color: white; }
-      .contenidoContacto .datosDeContacto .card .card-img-top {
+      .mainContacto .contenidoContacto .datosDeContacto .card .card-img-top {
         height: 30%; }
 
 .card {
